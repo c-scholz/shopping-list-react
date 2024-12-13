@@ -31,6 +31,7 @@ export const ShoppingListDetails = (props: ShoppingListDetails) => {
               type="checkbox"
               checked={item.checked}
               onChange={() => updateItem({ ...item, checked: !item.checked })}
+              title={`Toggle item: ${item.name}`}
             />
             <div className={`item__data${item.checked ? ' item__data--checked' : ''}`}>
               <span>{item.name}</span><span>x{item.amount}</span>
@@ -38,6 +39,7 @@ export const ShoppingListDetails = (props: ShoppingListDetails) => {
             <button
               className="item__remove"
               onClick={() => removeItem(item)}
+              title={`Remove item: ${item.name}`}
             >
               <i className="pi pi-times item__remove-icon " />
             </button>

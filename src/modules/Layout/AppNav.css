@@ -1,4 +1,19 @@
 .app-nav {
   display: flex;
   position: sticky;
+  padding: 8px 20px;
+}
+
+.app-nav__home {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.app-nav__logo {
+  width: 3rem;
+}
+
+.app-nav__name {
+  font-size: 1.6rem;
 }
