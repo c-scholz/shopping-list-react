@@ -59,10 +59,13 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-input[type="text"],
-input[type="number"] {
+input {
   background: #09090b;
   border: 1px solid #52525b;
+}
+
+input[type="text"],
+input[type="number"] {
   border-radius: 6px;
   padding: 8px 12px;
 }
