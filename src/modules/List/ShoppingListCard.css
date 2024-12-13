@@ -1,0 +1,20 @@
+.card {
+  background: #484848;
+  border-radius: 14px;
+  padding: 20px 20px;
+  font-size: 1.25rem;
+}
+
+.card h2 {
+  margin-left: 1rem;
+  margin-top: 0;
+}
+
+.card__no-entries {
+  margin-left: 1rem;
+}
+
+.card__more-entries {
+  margin-top: -1.6rem;
+  margin-left: 2.6rem;
+}
