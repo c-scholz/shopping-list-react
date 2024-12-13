@@ -1,0 +1,13 @@
+.dashboard__form {
+  background: #484848;
+  border-radius: 14px;
+  padding: 16px 24px;
+  margin-bottom: 40px;
+}
+
+.dashboard__lists {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px 20px;
+  border-radius: 14px;
+}
